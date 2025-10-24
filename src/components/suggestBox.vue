@@ -53,7 +53,7 @@ const handleSuggest = async () => {
       >
         <span
           v-if="loading"
-          class="absolute left-4 w-4 h-4 border-2 border-white border-t-transparent rounded-full animate-spin"
+          class="absolute left-4 w-4 h-4 border-2 cursor-pointer border-white border-t-transparent rounded-full animate-spin"
         ></span>
         {{ loading ? "Thinking..." : "Suggest Todos" }}
       </button>

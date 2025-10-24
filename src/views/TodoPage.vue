@@ -157,14 +157,14 @@ const goToHome = () => router.push("/");
           <div class="flex items-center gap-3">
             <button
               @click="handleDelete(todo.id)"
-              class="text-red-500 hover:text-red-700"
+              class="text-red-500 cursor-pointer hover:text-red-700"
             >
               🗑️
             </button>
             <template v-if="editingTodoId === todo.id">
               <button
                 @click="handleSave(todo)"
-                class="text-green-500 hover:text-green-700"
+                class="text-green-500 cursor-pointer hover:text-green-700"
               >
                 💾 Save
               </button>
@@ -172,9 +172,9 @@ const goToHome = () => router.push("/");
             <template v-else>
               <button
                 @click="handleEdit(todo)"
-                class="text-yellow-500 hover:text-yellow-600"
+                class="text-yellow-500 cursor-pointer hover:text-yellow-600"
               >
-                ✏️ Edit
+                Edit
               </button>
             </template>
           </div>
