@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+.bg-todos {
+  background-image: url("/img2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
