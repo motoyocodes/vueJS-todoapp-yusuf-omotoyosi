@@ -69,7 +69,7 @@ Installation & Setup
 1️⃣ Clone the repository
 git clone https://github.com/motoyocodes/vueJS-todoapp-yusuf-omotoyosi.git
 
-cd vuejs-migration
+cd vuejs-todoapp-yusuf-omotoyosi
 
 2️⃣ Install dependencies
 npm install
